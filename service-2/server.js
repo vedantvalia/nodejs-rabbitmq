@@ -37,6 +37,5 @@ app.get('/',(req, res) => {
     //res.send('Hello World')
     res.sendFile(__dirname + '/index.html')
         // Note: __dirname is the current directory you're in. Try logging it and see what you get!
-        // Mine was '/Users/zellwk/Projects/demo-repos/crud-express-mongo' for this app.
       
     })
